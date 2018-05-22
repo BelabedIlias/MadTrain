@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 ﻿Log file open, 05/22/18 12:33:08
+=======
+﻿Log file open, 05/22/18 12:25:26
+>>>>>>> 0dd262fe6135a0a01d9d5e3e34047ad60ced5180
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -7,14 +11,24 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: MadTrain
 LogPlatformFile: Not using cached read wrapper
+<<<<<<< HEAD
 LogInit: Display: RandInit(95727272) SRandInit(95727272).
 LogInit: Read version file with build ID '3944462'
 LogInit: Overriding engine version to CL 4033788, compatible CL 3944462
 LogInit: Registered custom module enumerator with build ID '3944462'
 LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
 LogStats: Stats thread started at 0.396832
+=======
+LogInit: Display: RandInit(918919746) SRandInit(918919746).
+LogInit: Read version file with build ID '3944462'
+LogInit: Overriding engine version to CL 4033788, compatible CL 3944462
+LogInit: Registered custom module enumerator with build ID '3944462'
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 1.765954
+>>>>>>> 0dd262fe6135a0a01d9d5e3e34047ad60ced5180
 LogD3D11RHI: Aftermath initialized
 LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Designer/Binaries/Win64/UE4Editor-Designer.dll (API version 3944462).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3944462).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3944462).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 3944462).
@@ -102,6 +116,7 @@ LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/
 LogPluginManager: Mounting plugin Paper2D
 LogPluginManager: Mounting plugin LiveLink
 LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin Designer
 LogPluginManager: Mounting plugin CLionSourceCodeAccess
 LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
 LogPluginManager: Mounting plugin GitSourceControl
@@ -168,7 +183,11 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
+<<<<<<< HEAD
 LogStreaming: Display: Took  2.429s to configure plugins.
+=======
+LogStreaming: Display: Took  3.303s to configure plugins.
+>>>>>>> 0dd262fe6135a0a01d9d5e3e34047ad60ced5180
 LogInit: Using libcurl 7.47.1
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2g
@@ -222,6 +241,7 @@ LogInit: Installed Engine Build: 1
 LogStreaming: Display: Took  0.000s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
+<<<<<<< HEAD
 [2018.05.22-10.33.11:938][  0]LogInit: Selected Device Profile: [Windows]
 [2018.05.22-10.33.11:938][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
 [2018.05.22-10.33.11:970][  0]LogInit: Computer: LAPTOP-T0A5PKG2
@@ -1783,3 +1803,260 @@ LogInit: Object subsystem initialized
 [2018.05.22-10.36.50:393][705]LogModuleManager: Shutting down and abandoning module PakFile (2)
 [2018.05.22-10.36.50:434][705]LogExit: Exiting.
 [2018.05.22-10.36.50:483][705]Log file closed, 05/22/18 12:36:50
+=======
+[2018.05.22-10.25.30:863][  0]LogInit: Selected Device Profile: [Windows]
+[2018.05.22-10.25.30:863][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.05.22-10.25.30:905][  0]LogInit: Computer: DESKTOP-89D3LC2
+[2018.05.22-10.25.30:905][  0]LogInit: User: BelabedIlias
+[2018.05.22-10.25.30:905][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.05.22-10.25.30:905][  0]LogInit: High frequency timer resolution =2.437503 MHz
+[2018.05.22-10.25.30:905][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2018.05.22-10.25.30:905][  0]LogMemory: Platform Memory Stats for Windows
+[2018.05.22-10.25.30:905][  0]LogMemory: Process Physical Memory: 273.00 MB used, 273.00 MB peak
+[2018.05.22-10.25.30:905][  0]LogMemory: Process Virtual Memory: 261.90 MB used, 261.90 MB peak
+[2018.05.22-10.25.30:905][  0]LogMemory: Physical Memory: 4766.64 MB used,  3343.25 MB free, 8109.90 MB total
+[2018.05.22-10.25.30:905][  0]LogMemory: Virtual Memory: 631.96 MB used,  3343.25 MB free, 134217728.00 MB total
+[2018.05.22-10.25.31:196][  0]LogInit: Using OS detected language (fr-FR).
+[2018.05.22-10.25.31:196][  0]LogInit: Using OS detected locale (fr-FR).
+[2018.05.22-10.25.31:261][  0]LogTextLocalizationManager: No localization for 'fr-FR' exists, so 'en' will be used for the language.
+[2018.05.22-10.25.31:929][  0]LogStreaming: Display: Took  0.733s to EndInitTextLocalization.
+[2018.05.22-10.25.32:096][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.05.22-10.25.32:096][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.05.22-10.25.33:576][  0]LogD3D11RHI: D3D11 adapters:
+[2018.05.22-10.25.33:629][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050' (Feature Level 11_0)
+[2018.05.22-10.25.33:629][  0]LogD3D11RHI:       1979/0/4054 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.05.22-10.25.33:639][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2018.05.22-10.25.33:639][  0]LogD3D11RHI:       128/0/4054 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2018.05.22-10.25.33:641][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.05.22-10.25.33:641][  0]LogD3D11RHI:       0/0/4054 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.05.22-10.25.33:641][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.05.22-10.25.33:648][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.05.22-10.25.33:648][  0]LogD3D11RHI:     GPU DeviceId: 0x1c8d (for the marketing name, search the web for "GPU Device Id")
+[2018.05.22-10.25.33:648][  0]LogWindows: EnumDisplayDevices:
+[2018.05.22-10.25.33:648][  0]LogWindows:    0. 'Intel(R) HD Graphics 630' (P:1 D:1)
+[2018.05.22-10.25.33:648][  0]LogWindows:    1. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2018.05.22-10.25.33:648][  0]LogWindows:    2. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2018.05.22-10.25.33:648][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.05.22-10.25.33:648][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050
+[2018.05.22-10.25.33:648][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.05.22-10.25.33:648][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.05.22-10.25.33:648][  0]LogRHI: Texture pool is 1385 MB (70% of 1979 MB)
+[2018.05.22-10.25.33:708][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2018.05.22-10.25.33:708][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2018.05.22-10.25.33:708][  0]LogD3D11RHI: Async texture creation enabled
+[2018.05.22-10.25.33:724][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.05.22-10.25.33:725][  0]LogShaderCompilers: Guid format shader working directory is 5 characters bigger than the processId version (../../../../../../Repositories/MadTrain/MadTrain/Intermediate/Shaders/WorkingDirectory/12920/).
+[2018.05.22-10.25.33:725][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Belabed Ilias/AppData/Local/Temp/UnrealShaderWorkingDir/EF78FED8476D4A4B612421A8D5107C83/'.
+[2018.05.22-10.25.34:577][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.05.22-10.25.34:604][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.05.22-10.25.34:631][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.05.22-10.25.34:655][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.05.22-10.25.34:695][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.05.22-10.25.34:746][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.05.22-10.25.34:767][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.05.22-10.25.34:792][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.05.22-10.25.34:807][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.05.22-10.25.34:844][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.05.22-10.25.34:877][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.05.22-10.25.34:909][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.05.22-10.25.34:935][  0]LogTemp: Display: Loaded TP Android_ETC1aTargetPlatform
+[2018.05.22-10.25.34:969][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.05.22-10.25.34:997][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.05.22-10.25.35:070][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.05.22-10.25.35:070][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.05.22-10.25.35:108][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.05.22-10.25.35:119][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.05.22-10.25.35:232][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.05.22-10.25.35:243][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.05.22-10.25.35:260][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.05.22-10.25.35:282][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.05.22-10.25.35:317][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.05.22-10.25.35:375][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.05.22-10.25.35:375][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.05.22-10.25.35:855][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.05.22-10.25.35:855][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.05.22-10.25.35:855][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.05.22-10.25.38:125][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.05.22-10.25.38:460][  0]LogDerivedDataCache: Loaded boot cache 0.33s 88MB C:/Users/Belabed Ilias/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2018.05.22-10.25.38:460][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Belabed Ilias/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc
+[2018.05.22-10.25.38:460][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Repositories/MadTrain/MadTrain/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.05.22-10.25.38:460][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.05.22-10.25.38:460][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Repositories/MadTrain/MadTrain/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.05.22-10.25.38:460][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.05.22-10.25.38:547][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.05.22-10.25.38:560][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Belabed Ilias/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.05.22-10.25.38:560][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.05.22-10.25.38:560][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.05.22-10.25.38:572][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.05.22-10.25.38:572][  0]LogSlate: Using Freetype 2.6.0
+[2018.05.22-10.25.38:594][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.05.22-10.25.38:594][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.05.22-10.25.41:958][  0]LogAssetRegistry: FAssetRegistry took 0.0266 seconds to start up
+[2018.05.22-10.25.43:811][  0]LogInit: Selected Device Profile: [Windows]
+[2018.05.22-10.25.44:236][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.05.22-10.25.44:250][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.05.22-10.25.44:250][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.05.22-10.25.44:250][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.05.22-10.25.44:250][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.05.22-10.25.44:251][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.05.22-10.25.44:283][  0]LogNetVersion: MadTrain , NetCL: 3944462, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1735386904)
+[2018.05.22-10.25.44:963][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.037221 seconds
+[2018.05.22-10.25.44:968][  0]LogUObjectArray: 36728 objects as part of root set at end of initial load.
+[2018.05.22-10.25.44:968][  0]LogUObjectAllocator: 7314304 out of 0 bytes used by permanent object pool.
+[2018.05.22-10.25.44:968][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.05.22-10.26.05:060][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.05.22-10.26.05:100][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.05.22-10.26.06:126][  0]SourceControl: Source control is disabled
+[2018.05.22-10.26.06:126][  0]SourceControl: Source control is disabled
+[2018.05.22-10.26.06:171][  0]SourceControl: Source control is disabled
+[2018.05.22-10.26.06:208][  0]SourceControl: Source control is disabled
+[2018.05.22-10.26.07:266][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.05.22-10.26.07:505][  0]LogOcInput: OculusInput pre-init called
+[2018.05.22-10.26.07:791][  0]LogEngine: Initializing Engine...
+[2018.05.22-10.26.07:799][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.05.22-10.26.07:800][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.05.22-10.26.07:800][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.05.22-10.26.08:110][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.05.22-10.26.08:118][  0]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.05.22-10.26.08:202][  0]LogInit: FAudioDevice initialized.
+[2018.05.22-10.26.08:285][  0]LogDerivedDataCache: Saved boot cache 0.08s 88MB C:/Users/Belabed Ilias/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2018.05.22-10.26.08:298][  0]LogInit: Texture streaming: Enabled
+[2018.05.22-10.26.08:349][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.05.22-10.26.08:420][  0]LogInit: Transaction tracking system initialized
+[2018.05.22-10.26.08:599][  0]BlueprintLog: New page: Editor Load
+[2018.05.22-10.26.09:125][  0]LocalizationService: Localization service is disabled
+[2018.05.22-10.26.09:616][  0]LogConsoleResponse: Display: 
+[2018.05.22-10.26.10:282][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.05.22-10.26.10:282][  0]LogCook: Display: Mobile HDR setting 1
+[2018.05.22-10.26.10:283][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.05.22-10.26.10:283][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.05.22-10.26.10:283][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.05.22-10.26.10:879][  0]LogFileCache: Scanning file cache for directory 'D:/Repositories/MadTrain/MadTrain/Content/' took 0.01s
+[2018.05.22-10.26.12:603][  0]SourceControl: Source control is disabled
+[2018.05.22-10.26.12:603][  0]Cmd: MAP LOAD FILE="../../../../../../Repositories/MadTrain/MadTrain/Content/VirtualRealityBP/Maps/StartupMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.05.22-10.26.12:603][  0]LightingResults: New page: Lighting Build
+[2018.05.22-10.26.12:621][  0]MapCheck: New page: Map Check
+[2018.05.22-10.26.12:621][  0]LightingResults: New page: Lighting Build
+[2018.05.22-10.26.12:769][  0]LogSkeletalMesh: Skeletal Mesh found in DDC [7.737016ms] /Game/VirtualReality/Mannequin/Character/Mesh/MannequinHand_Right.MannequinHand_Right
+[2018.05.22-10.26.12:791][  0]LogAIModule: Creating AISystem for world StartupMap
+[2018.05.22-10.26.12:798][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.05.22-10.26.12:811][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.05.22-10.26.12:863][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 51,73ms to complete.
+[2018.05.22-10.26.12:863][  0]LogFileHelpers: Loading map 'StartupMap' took 0.261
+[2018.05.22-10.26.13:153][  0]LogCollectionManager: Loaded 0 collections in 0.001517 seconds
+[2018.05.22-10.26.13:215][  0]LogFileCache: Scanning file cache for directory 'D:/Repositories/MadTrain/MadTrain/Saved/Collections/' took 0.01s
+[2018.05.22-10.26.13:215][  0]LogFileCache: Scanning file cache for directory 'D:/Repositories/MadTrain/MadTrain/Content/Developers/BelabedIlias/Collections/' took 0.01s
+[2018.05.22-10.26.13:215][  0]LogFileCache: Scanning file cache for directory 'D:/Repositories/MadTrain/MadTrain/Content/Collections/' took 0.02s
+[2018.05.22-10.26.13:215][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.05.22-10.26.13:238][  0]LogContentBrowser: Native class hierarchy populated in 0.0227 seconds. Added 2453 classes and 561 folders.
+[2018.05.22-10.26.13:272][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.05.22-10.26.14:184][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.05.22-10.26.14:207][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2018.05.22-10.26.14:316][  0]LogSlate: Took 0.012895 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.05.22-10.26.14:919][  0]LogDirectoryWatcher: Warning: Failed to begin reading directory changes for ../../../../../../Repositories/MadTrain/MadTrain/Plugins/. Error: Le fichier spécifié est introuvable. (0x00000002)
+[2018.05.22-10.26.14:964][  0]LogSlate: Took 0.011992 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.05.22-10.26.14:982][  0]LogSlate: Took 0.012509 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.05.22-10.26.15:089][  0]LogRenderer: Reallocating scene render targets to support 1208x600 Format 26 NumSamples 1 (Frame:1).
+[2018.05.22-10.26.15:317][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.05.22-10.26.15:317][  0]LogLoad: (Engine Initialization) Total time: 66.90 seconds
+[2018.05.22-10.26.15:317][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.05.22-10.26.15:677][  0]LogContentStreaming: Texture pool size now 800 MB
+[2018.05.22-10.26.15:765][  0]LogSlate: Took 0.000208 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.05.22-10.26.15:999][  1]LogAssetRegistry: Asset discovery search completed in 34.0630 seconds
+[2018.05.22-10.26.16:001][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.05.22-10.26.16:001][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000050 seconds (updated 0 objects)
+[2018.05.22-10.26.18:660][  9]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.22-10.26.18:660][  9]LogSlate: Window 'Plugins' being destroyed
+[2018.05.22-10.26.18:670][  9]LogSlate: Window 'Plugins' being destroyed
+[2018.05.22-10.26.18:671][  9]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/' was aborted.
+[2018.05.22-10.26.19:500][ 55]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.22-10.26.19:690][ 66]LogSlate: Took 0.000229 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.05.22-10.26.19:787][ 66]LogLinker: Warning: Can't find file '/Game/1st_BuiltData'
+[2018.05.22-10.26.19:787][ 66]LogLinker: Warning: Can't find file for asset '/Game/1st_BuiltData' while loading ../../../../../../Repositories/MadTrain/MadTrain/Content/1st.umap.
+[2018.05.22-10.26.19:800][ 66]LoadErrors: Error: /Game/1st : Can't find file for asset. /Game/1st_BuiltData
+[2018.05.22-10.26.19:802][ 66]LogLinker: Warning: Can't find file '/Game/1st_BuiltData'
+[2018.05.22-10.26.19:803][ 66]LogLinker: Warning: Can't find file for asset '/Game/1st_BuiltData' while loading ../../../../../../Repositories/MadTrain/MadTrain/Content/1st.umap.
+[2018.05.22-10.26.19:808][ 66]LogLinker: Warning: Can't find file '/Game/1st_BuiltData'
+[2018.05.22-10.26.19:808][ 66]LoadErrors: Failed to load /Game/1st_BuiltData.1st_BuiltData Referenced by PersistentLevel
+[2018.05.22-10.26.19:808][ 66]LogLinker: Warning: Can't find file for asset '/Game/1st_BuiltData' while loading NULL.
+[2018.05.22-10.26.19:878][ 66]LogAIModule: Creating AISystem for world 1st
+[2018.05.22-10.26.19:922][ 66]Cmd: MAP LOAD FILE="../../../../../../Repositories/MadTrain/MadTrain/Content/1st.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.05.22-10.26.19:922][ 66]LightingResults: New page: Lighting Build
+[2018.05.22-10.26.19:923][ 66]LoadErrors: New page: Loading map: 1st.umap
+[2018.05.22-10.26.19:934][ 66]MapCheck: New page: Map Check
+[2018.05.22-10.26.19:934][ 66]LightingResults: New page: Lighting Build
+[2018.05.22-10.26.19:993][ 66]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.05.22-10.26.20:018][ 66]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.05.22-10.26.20:069][ 66]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 51,22ms to complete.
+[2018.05.22-10.26.20:069][ 66]LogFileHelpers: Loading map '1st' took 0.148
+[2018.05.22-10.26.56:891][266]MapCheck: New page: Map Check
+[2018.05.22-10.26.56:962][266]Cmd: MAP REBUILD ALLVISIBLE
+[2018.05.22-10.26.56:962][266]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2018.05.22-10.26.57:187][266]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2018.05.22-10.26.57:373][266]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.05.22-10.26.57:373][266]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy DefaultMaterial, compiling. 
+[2018.05.22-10.26.57:378][266]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_2, compiling. 
+[2018.05.22-10.26.59:229][266]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.05.22-10.26.59:229][266]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.05.22-10.26.59:229][266]TextureStreamingBuild: Display: Compiling optional shaders took 2.056 seconds.
+[2018.05.22-10.26.59:279][266]LogLevel: Display: Export Material TexCoord Scales took 0.050 seconds.
+[2018.05.22-10.26.59:299][266]TextureStreamingBuild: Display: Build Texture Streaming took 0.020 seconds.
+[2018.05.22-10.26.59:352][266]LightingResults: New page: Lighting Build - 22 mai 2018 14:26:59
+[2018.05.22-10.26.59:548][266]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2018.05.22-10.26.59:679][266]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2018.05.22-10.26.59:693][266]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2018.05.22-10.27.00:745][266]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2018.05.22-10.27.00:745][266]LogSwarmInterface: [TryOpenConnection] Local Process ID is 12920
+[2018.05.22-10.27.03:198][266]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2018.05.22-10.27.03:224][266]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2018.05.22-10.27.03:224][266]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2018.05.22-10.27.03:224][266]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2018.05.22-10.27.03:224][266]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2018.05.22-10.27.03:224][266]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2018.05.22-10.27.03:609][266]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2018.05.22-10.27.03:609][266]MapCheck: New page: 1st - 22 mai 2018 14:27:03
+[2018.05.22-10.27.03:609][266]MapCheck: Error: WorldSettings_1 Maps need lighting rebuilt 
+[2018.05.22-10.27.03:730][266]MapCheck: Map check complete: 1 Error(s), 0 Warning(s), took 121,109ms to complete.
+[2018.05.22-10.27.03:752][266]LogEditorBuildUtils: Build time 0:06
+[2018.05.22-10.27.04:062][267]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer MaterialInstanceDynamic_2, compiling. 
+[2018.05.22-10.27.04:091][267]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer MaterialInstanceDynamic_2, compiling. 
+[2018.05.22-10.27.04:111][267]LogShaderCompilers: Display: Shaders left to compile 4
+[2018.05.22-10.27.07:164][341]LogSlate: Window 'Message Log' being destroyed
+[2018.05.22-10.27.07:180][341]LogSlate: Window 'Message Log' being destroyed
+[2018.05.22-10.27.07:692][361]Job is a success!
+[2018.05.22-10.27.07:866][362]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.046s
+[2018.05.22-10.27.07:866][362]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2018.05.22-10.27.07:866][362]LogVolumetricLightmapImport:      BrickData 370x5x5 = 0.3Mb
+[2018.05.22-10.27.07:866][362]LogVolumetricLightmapImport:      Bricks at Level
+[2018.05.22-10.27.07:866][362]LogVolumetricLightmapImport:          0: 1.4% covering 100.0% of volume
+[2018.05.22-10.27.07:866][362]LogVolumetricLightmapImport:          1: 12.2% covering 14.1% of volume
+[2018.05.22-10.27.07:866][362]LogVolumetricLightmapImport:          2: 86.5% covering 1.6% of volume
+[2018.05.22-10.27.08:091][362]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 256X256)
+[2018.05.22-10.27.08:091][362]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 256X256)
+[2018.05.22-10.27.08:091][362]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 64X64)
+[2018.05.22-10.27.08:091][362]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 64X64)
+[2018.05.22-10.27.08:091][362]LogTexture: Display: Building textures: ShadowMapTexture2D_1 (G8, 32X32)
+[2018.05.22-10.27.08:091][362]LogTexture: Display: Building textures: ShadowMapTexture2D_0 (G8, 128X128)
+[2018.05.22-10.27.08:164][362]Lightmass on DESKTOP-89D3LC2: 1.69 sec total, 178 ms importing, 132 ms setup, 229 ms photons, 1.02 sec processing, 0 ms extra exporting [2/2 mappings]. Threads: 4.07 sec total, 335 ms processing.
+[2018.05.22-10.27.08:257][362]LogStaticLightingSystem: Illumination: 8.81 sec (109 ms encoding lightmaps, 40 ms encoding shadowmaps)
+[2018.05.22-10.27.08:257][362]LogStaticLightingSystem: Lightmap texture memory:  0.1 MB (0.1 MB streaming, 0.0 MB non-streaming), 4 textures
+[2018.05.22-10.27.08:258][362]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 2 textures
+[2018.05.22-10.27.09:184][362]DumpUnbuiltLightIteractions
+[2018.05.22-10.27.09:184][362]Lights with unbuilt interactions: 0
+[2018.05.22-10.27.09:184][362]
+[2018.05.22-10.27.09:184][362]Primitives with unbuilt interactions: 0
+[2018.05.22-10.27.09:274][363]Cmd: MAP CHECK NOTIFYRESULTS
+[2018.05.22-10.27.09:275][363]MapCheck: New page: 1st - 22 mai 2018 14:27:09
+[2018.05.22-10.27.09:330][363]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 55,049ms to complete.
+[2018.05.22-10.27.48:016][620]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.05.22-10.27.49:491][706]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.05.22-10.27.49:557][706]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/1st" FILE="../../../../../../Repositories/MadTrain/MadTrain/Content/1st.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.05.22-10.27.49:591][706]LogSavePackage: Save=18.79ms
+[2018.05.22-10.27.49:591][706]LogSavePackage: Moving '../../../../../../Repositories/MadTrain/MadTrain/Saved/1st5B6EBDF449D7F2B4033589A6DF17B917.tmp' to '../../../../../../Repositories/MadTrain/MadTrain/Content/1st.umap'
+[2018.05.22-10.27.49:593][706]LogSavePackage: Display: Finished SavePackage ../../../../../../Repositories/MadTrain/MadTrain/Content/1st.umap
+[2018.05.22-10.27.49:606][706]LogFileHelpers: Saving map '1st' took 0.103
+[2018.05.22-10.27.49:609][706]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/1st_BuiltData" FILE="../../../../../../Repositories/MadTrain/MadTrain/Content/1st_BuiltData.uasset" SILENT=true
+[2018.05.22-10.27.49:684][706]LogSavePackage: Save=73.33ms
+[2018.05.22-10.27.49:684][706]LogSavePackage: Moving '../../../../../../Repositories/MadTrain/MadTrain/Saved/1st_BuiltData4E8E5A1641B283134D9D688A1DACF84E.tmp' to '../../../../../../Repositories/MadTrain/MadTrain/Content/1st_BuiltData.uasset'
+[2018.05.22-10.27.49:687][706]LogSavePackage: Display: Finished SavePackage ../../../../../../Repositories/MadTrain/MadTrain/Content/1st_BuiltData.uasset
+>>>>>>> 0dd262fe6135a0a01d9d5e3e34047ad60ced5180
