@@ -1,4 +1,4 @@
-﻿Log file open, 05/22/18 11:47:20
+﻿Log file open, 05/22/18 12:25:26
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -7,14 +7,15 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: MadTrain
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(-319190118) SRandInit(-319190118).
+LogInit: Display: RandInit(918919746) SRandInit(918919746).
 LogInit: Read version file with build ID '3944462'
 LogInit: Overriding engine version to CL 4033788, compatible CL 3944462
 LogInit: Registered custom module enumerator with build ID '3944462'
 LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.170954
+LogStats: Stats thread started at 1.765954
 LogD3D11RHI: Aftermath initialized
 LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Designer/Binaries/Win64/UE4Editor-Designer.dll (API version 3944462).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3944462).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3944462).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 3944462).
@@ -102,6 +103,7 @@ LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/
 LogPluginManager: Mounting plugin Paper2D
 LogPluginManager: Mounting plugin LiveLink
 LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin Designer
 LogPluginManager: Mounting plugin CLionSourceCodeAccess
 LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
 LogPluginManager: Mounting plugin GitSourceControl
@@ -168,7 +170,7 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogStreaming: Display: Took  1.007s to configure plugins.
+LogStreaming: Display: Took  3.303s to configure plugins.
 LogInit: Using libcurl 7.47.1
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2g
@@ -222,441 +224,258 @@ LogInit: Installed Engine Build: 1
 LogStreaming: Display: Took  0.000s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.05.22-09.47.22:239][  0]LogInit: Selected Device Profile: [Windows]
-[2018.05.22-09.47.22:239][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.05.22-09.47.22:246][  0]LogInit: Computer: DESKTOP-89D3LC2
-[2018.05.22-09.47.22:246][  0]LogInit: User: BelabedIlias
-[2018.05.22-09.47.22:246][  0]LogInit: CPU Page size=4096, Cores=4
-[2018.05.22-09.47.22:246][  0]LogInit: High frequency timer resolution =2.437503 MHz
-[2018.05.22-09.47.22:247][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
-[2018.05.22-09.47.22:247][  0]LogMemory: Platform Memory Stats for Windows
-[2018.05.22-09.47.22:247][  0]LogMemory: Process Physical Memory: 273.43 MB used, 273.43 MB peak
-[2018.05.22-09.47.22:247][  0]LogMemory: Process Virtual Memory: 269.89 MB used, 269.89 MB peak
-[2018.05.22-09.47.22:247][  0]LogMemory: Physical Memory: 5952.89 MB used,  2157.01 MB free, 8109.90 MB total
-[2018.05.22-09.47.22:247][  0]LogMemory: Virtual Memory: 639.96 MB used,  2157.01 MB free, 134217728.00 MB total
-[2018.05.22-09.47.22:269][  0]LogInit: Using OS detected language (fr-FR).
-[2018.05.22-09.47.22:269][  0]LogInit: Using OS detected locale (fr-FR).
-[2018.05.22-09.47.22:272][  0]LogTextLocalizationManager: No localization for 'fr-FR' exists, so 'en' will be used for the language.
-[2018.05.22-09.47.22:716][  0]LogStreaming: Display: Took  0.447s to EndInitTextLocalization.
-[2018.05.22-09.47.22:758][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2018.05.22-09.47.22:759][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2018.05.22-09.47.22:969][  0]LogD3D11RHI: D3D11 adapters:
-[2018.05.22-09.47.23:026][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050' (Feature Level 11_0)
-[2018.05.22-09.47.23:026][  0]LogD3D11RHI:       1979/0/4054 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2018.05.22-09.47.23:033][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
-[2018.05.22-09.47.23:033][  0]LogD3D11RHI:       128/0/4054 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2018.05.22-09.47.23:034][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.05.22-09.47.23:034][  0]LogD3D11RHI:       0/0/4054 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.05.22-09.47.23:034][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.05.22-09.47.23:041][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.05.22-09.47.23:041][  0]LogD3D11RHI:     GPU DeviceId: 0x1c8d (for the marketing name, search the web for "GPU Device Id")
-[2018.05.22-09.47.23:041][  0]LogWindows: EnumDisplayDevices:
-[2018.05.22-09.47.23:041][  0]LogWindows:    0. 'Intel(R) HD Graphics 630' (P:1 D:1)
-[2018.05.22-09.47.23:042][  0]LogWindows:    1. 'Intel(R) HD Graphics 630' (P:0 D:0)
-[2018.05.22-09.47.23:042][  0]LogWindows:    2. 'Intel(R) HD Graphics 630' (P:0 D:0)
-[2018.05.22-09.47.23:042][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2018.05.22-09.47.23:042][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050
-[2018.05.22-09.47.23:042][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2018.05.22-09.47.23:042][  0]LogD3D11RHI:      Driver Date: Unknown
-[2018.05.22-09.47.23:042][  0]LogRHI: Texture pool is 1385 MB (70% of 1979 MB)
-[2018.05.22-09.47.23:085][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
-[2018.05.22-09.47.23:085][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
-[2018.05.22-09.47.23:085][  0]LogD3D11RHI: Async texture creation enabled
-[2018.05.22-09.47.23:104][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2018.05.22-09.47.23:105][  0]LogShaderCompilers: Guid format shader working directory is 5 characters bigger than the processId version (../../../../../../Repositories/MadTrain/MadTrain/Intermediate/Shaders/WorkingDirectory/11916/).
-[2018.05.22-09.47.23:105][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Belabed Ilias/AppData/Local/Temp/UnrealShaderWorkingDir/4716A7F745D3E2C36DFA4DAB52F994E1/'.
-[2018.05.22-09.47.23:346][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2018.05.22-09.47.23:359][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2018.05.22-09.47.23:372][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2018.05.22-09.47.23:385][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2018.05.22-09.47.23:398][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2018.05.22-09.47.23:412][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2018.05.22-09.47.23:425][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.05.22-09.47.23:439][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2018.05.22-09.47.23:445][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2018.05.22-09.47.23:457][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2018.05.22-09.47.23:468][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2018.05.22-09.47.23:480][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2018.05.22-09.47.23:492][  0]LogTemp: Display: Loaded TP Android_ETC1aTargetPlatform
-[2018.05.22-09.47.23:504][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2018.05.22-09.47.23:516][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2018.05.22-09.47.23:540][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2018.05.22-09.47.23:540][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2018.05.22-09.47.23:553][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.05.22-09.47.23:554][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2018.05.22-09.47.23:593][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.05.22-09.47.23:605][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.05.22-09.47.23:617][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2018.05.22-09.47.23:628][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2018.05.22-09.47.23:640][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2018.05.22-09.47.23:653][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2018.05.22-09.47.23:653][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2018.05.22-09.47.23:760][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2018.05.22-09.47.23:760][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2018.05.22-09.47.23:760][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2018.05.22-09.47.24:447][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2018.05.22-09.47.24:554][  0]LogDerivedDataCache: Loaded boot cache 0.11s 88MB C:/Users/Belabed Ilias/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
-[2018.05.22-09.47.24:554][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Belabed Ilias/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc
-[2018.05.22-09.47.24:554][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Repositories/MadTrain/MadTrain/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.05.22-09.47.24:555][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.05.22-09.47.24:555][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Repositories/MadTrain/MadTrain/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.05.22-09.47.24:555][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.05.22-09.47.24:572][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.05.22-09.47.24:585][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Belabed Ilias/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.05.22-09.47.24:585][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2018.05.22-09.47.24:585][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2018.05.22-09.47.24:597][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.05.22-09.47.24:597][  0]LogSlate: Using Freetype 2.6.0
-[2018.05.22-09.47.24:598][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.05.22-09.47.24:598][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.05.22-09.47.24:726][  0]LogAssetRegistry: FAssetRegistry took 0.0263 seconds to start up
-[2018.05.22-09.47.25:038][  0]LogInit: Selected Device Profile: [Windows]
-[2018.05.22-09.47.25:237][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.05.22-09.47.25:240][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.05.22-09.47.25:240][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.05.22-09.47.25:240][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2018.05.22-09.47.25:240][  0]LogMeshReduction: No automatic mesh merging module available
-[2018.05.22-09.47.25:240][  0]LogMeshMerging: No automatic mesh merging module available
-[2018.05.22-09.47.25:276][  0]LogNetVersion: MadTrain , NetCL: 3944462, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1735386904)
-[2018.05.22-09.47.25:833][  0]LogPackageLocalizationCache: Processed 9 localized package path(s) for 1 prioritized culture(s) in 0.046087 seconds
-[2018.05.22-09.47.25:840][  0]LogUObjectArray: 36728 objects as part of root set at end of initial load.
-[2018.05.22-09.47.25:841][  0]LogUObjectAllocator: 7314304 out of 0 bytes used by permanent object pool.
-[2018.05.22-09.47.25:841][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.05.22-09.47.27:677][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.05.22-09.47.27:717][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.05.22-09.47.28:134][  0]SourceControl: Source control is disabled
-[2018.05.22-09.47.28:134][  0]SourceControl: Source control is disabled
-[2018.05.22-09.47.28:152][  0]SourceControl: Source control is disabled
-[2018.05.22-09.47.28:170][  0]SourceControl: Source control is disabled
-[2018.05.22-09.47.28:688][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.05.22-09.47.28:834][  0]LogOcInput: OculusInput pre-init called
-[2018.05.22-09.47.28:949][  0]LogEngine: Initializing Engine...
-[2018.05.22-09.47.28:951][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2018.05.22-09.47.28:952][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.05.22-09.47.28:952][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.05.22-09.47.29:220][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.05.22-09.47.29:281][  0]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.05.22-09.47.29:365][  0]LogInit: FAudioDevice initialized.
-[2018.05.22-09.47.29:453][  0]LogDerivedDataCache: Saved boot cache 0.09s 88MB C:/Users/Belabed Ilias/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
-[2018.05.22-09.47.29:477][  0]LogInit: Texture streaming: Enabled
-[2018.05.22-09.47.29:495][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2018.05.22-09.47.29:511][  0]LogInit: Transaction tracking system initialized
-[2018.05.22-09.47.29:533][  0]BlueprintLog: New page: Editor Load
-[2018.05.22-09.47.29:603][  0]LocalizationService: Localization service is disabled
-[2018.05.22-09.47.29:713][  0]LogConsoleResponse: Display: 
-[2018.05.22-09.47.30:276][  0]LogFileCache: Scanning file cache for directory 'D:/Repositories/MadTrain/MadTrain/Content/' took 0.01s
-[2018.05.22-09.47.30:276][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2018.05.22-09.47.30:276][  0]LogCook: Display: Mobile HDR setting 1
-[2018.05.22-09.47.30:276][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2018.05.22-09.47.30:276][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.05.22-09.47.30:276][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.05.22-09.47.30:647][  0]SourceControl: Source control is disabled
-[2018.05.22-09.47.31:112][  0]LogFactory: FactoryCreateFile: PackFactory with PackFactory (0 0 D:/Program Files (x86)/Epic Games/UE_4.19/FeaturePacks/StarterContent.upack)
-[2018.05.22-09.47.31:414][  0]LogPackFactory: Finished extracting 8 files (including 0 errors).
-[2018.05.22-09.47.31:473][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Floor_400x400.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Architecture/Floor_400x400.uasset"
-[2018.05.22-09.47.31:496][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Pillar_50x500.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Architecture/Pillar_50x500.uasset"
-[2018.05.22-09.47.31:530][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/SM_AssetPlatform.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Architecture/SM_AssetPlatform.uasset"
-[2018.05.22-09.47.31:546][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x200.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Architecture/Wall_400x200.uasset"
-[2018.05.22-09.47.31:590][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x300.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Architecture/Wall_400x300.uasset"
-[2018.05.22-09.47.31:638][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x400.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Architecture/Wall_400x400.uasset"
-[2018.05.22-09.47.31:662][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_500x500.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Architecture/Wall_500x500.uasset"
-[2018.05.22-09.47.31:682][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x300.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Architecture/Wall_Door_400x300.uasset"
-[2018.05.22-09.47.31:709][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x400.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Architecture/Wall_Door_400x400.uasset"
-[2018.05.22-09.47.31:746][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x300.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Architecture/Wall_Window_400x300.uasset"
-[2018.05.22-09.47.31:768][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x400.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Architecture/Wall_Window_400x400.uasset"
-[2018.05.22-09.47.31:820][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse01.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Audio/Collapse01.uasset"
-[2018.05.22-09.47.31:870][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse02.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Audio/Collapse02.uasset"
-[2018.05.22-09.47.31:886][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse_Cue.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Audio/Collapse_Cue.uasset"
-[2018.05.22-09.47.32:158][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion01.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Audio/Explosion01.uasset"
-[2018.05.22-09.47.32:214][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion02.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Audio/Explosion02.uasset"
-[2018.05.22-09.47.32:261][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion_Cue.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Audio/Explosion_Cue.uasset"
-[2018.05.22-09.47.32:297][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Audio/Fire01.uasset"
-[2018.05.22-09.47.32:323][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01_Cue.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Audio/Fire01_Cue.uasset"
-[2018.05.22-09.47.32:352][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Audio/Fire_Sparks01.uasset"
-[2018.05.22-09.47.32:373][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset"
-[2018.05.22-09.47.32:434][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Audio/Light01.uasset"
-[2018.05.22-09.47.32:457][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01_Cue.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Audio/Light01_Cue.uasset"
-[2018.05.22-09.47.32:487][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Audio/Light02.uasset"
-[2018.05.22-09.47.32:503][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02_Cue.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Audio/Light02_Cue.uasset"
-[2018.05.22-09.47.32:543][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Audio/Smoke01.uasset"
-[2018.05.22-09.47.32:567][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01_Cue.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Audio/Smoke01_Cue.uasset"
-[2018.05.22-09.47.32:609][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Background_Cue.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Audio/Starter_Background_Cue.uasset"
-[2018.05.22-09.47.32:729][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Birds01.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Audio/Starter_Birds01.uasset"
-[2018.05.22-09.47.33:112][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music01.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Audio/Starter_Music01.uasset"
-[2018.05.22-09.47.33:150][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music_Cue.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Audio/Starter_Music_Cue.uasset"
-[2018.05.22-09.47.33:234][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind05.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Audio/Starter_Wind05.uasset"
-[2018.05.22-09.47.33:304][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind06.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Audio/Starter_Wind06.uasset"
-[2018.05.22-09.47.33:335][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Audio/Steam01.uasset"
-[2018.05.22-09.47.33:371][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01_Cue.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Audio/Steam01_Cue.uasset"
-[2018.05.22-09.47.33:398][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset"
-[2018.05.22-09.47.33:413][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset"
-[2018.05.22-09.47.33:414][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset"
-[2018.05.22-09.47.33:457][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset"
-[2018.05.22-09.47.33:480][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset"
-[2018.05.22-09.47.33:501][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset"
-[2018.05.22-09.47.33:530][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset"
-[2018.05.22-09.47.33:563][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/BP_LightStudio.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Blueprints/BP_LightStudio.uasset"
-[2018.05.22-09.47.33:587][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset"
-[2018.05.22-09.47.33:603][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset"
-[2018.05.22-09.47.33:625][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset"
-[2018.05.22-09.47.33:639][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset"
-[2018.05.22-09.47.33:650][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset"
-[2018.05.22-09.47.33:702][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/Skybox.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Blueprints/Assets/Skybox.uasset"
-[2018.05.22-09.47.33:736][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset"
-[2018.05.22-09.47.33:763][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset"
-[2018.05.22-09.47.35:119][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset"
-[2018.05.22-09.47.35:165][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting.umap" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Maps/Advanced_Lighting.umap"
-[2018.05.22-09.47.35:183][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset"
-[2018.05.22-09.47.35:242][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default.umap" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Maps/Minimal_Default.umap"
-[2018.05.22-09.47.35:290][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset"
-[2018.05.22-09.47.35:582][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap.umap" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Maps/StarterMap.umap"
-[2018.05.22-09.47.35:829][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap_BuiltData.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Maps/StarterMap_BuiltData.uasset"
-[2018.05.22-09.47.35:889][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_AssetPlatform.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Materials/M_AssetPlatform.uasset"
-[2018.05.22-09.47.35:929][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Floor.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Materials/M_Basic_Floor.uasset"
-[2018.05.22-09.47.35:941][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Wall.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Materials/M_Basic_Wall.uasset"
-[2018.05.22-09.47.35:952][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset"
-[2018.05.22-09.47.35:980][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_New.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Materials/M_Brick_Clay_New.uasset"
-[2018.05.22-09.47.36:008][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset"
-[2018.05.22-09.47.36:027][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset"
-[2018.05.22-09.47.36:053][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset"
-[2018.05.22-09.47.36:080][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset"
-[2018.05.22-09.47.36:102][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset"
-[2018.05.22-09.47.36:115][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset"
-[2018.05.22-09.47.36:137][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset"
-[2018.05.22-09.47.36:166][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset"
-[2018.05.22-09.47.36:193][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Grime.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Materials/M_Concrete_Grime.uasset"
-[2018.05.22-09.47.36:222][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Panels.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Materials/M_Concrete_Panels.uasset"
-[2018.05.22-09.47.36:237][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Poured.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Materials/M_Concrete_Poured.uasset"
-[2018.05.22-09.47.36:260][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Tiles.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Materials/M_Concrete_Tiles.uasset"
-[2018.05.22-09.47.36:289][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Glass.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Materials/M_Glass.uasset"
-[2018.05.22-09.47.36:306][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Grass.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Materials/M_Ground_Grass.uasset"
-[2018.05.22-09.47.36:325][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Gravel.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Materials/M_Ground_Gravel.uasset"
-[2018.05.22-09.47.36:344][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Moss.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Materials/M_Ground_Moss.uasset"
-[2018.05.22-09.47.36:357][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset"
-[2018.05.22-09.47.36:383][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset"
-[2018.05.22-09.47.36:406][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Chrome.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Materials/M_Metal_Chrome.uasset"
-[2018.05.22-09.47.36:422][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Copper.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Materials/M_Metal_Copper.uasset"
-[2018.05.22-09.47.36:445][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Gold.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Materials/M_Metal_Gold.uasset"
-[2018.05.22-09.47.36:469][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Rust.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Materials/M_Metal_Rust.uasset"
-[2018.05.22-09.47.36:489][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Steel.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Materials/M_Metal_Steel.uasset"
-[2018.05.22-09.47.36:509][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Basalt.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Materials/M_Rock_Basalt.uasset"
-[2018.05.22-09.47.36:531][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset"
-[2018.05.22-09.47.36:549][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Sandstone.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Materials/M_Rock_Sandstone.uasset"
-[2018.05.22-09.47.36:575][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Slate.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Materials/M_Rock_Slate.uasset"
-[2018.05.22-09.47.36:612][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset"
-[2018.05.22-09.47.36:639][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset"
-[2018.05.22-09.47.36:669][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset"
-[2018.05.22-09.47.36:694][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Panel.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Materials/M_Tech_Panel.uasset"
-[2018.05.22-09.47.36:712][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Lake.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Materials/M_Water_Lake.uasset"
-[2018.05.22-09.47.36:734][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Ocean.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Materials/M_Water_Ocean.uasset"
-[2018.05.22-09.47.36:760][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset"
-[2018.05.22-09.47.36:800][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset"
-[2018.05.22-09.47.36:816][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Oak.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Materials/M_Wood_Oak.uasset"
-[2018.05.22-09.47.36:839][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Pine.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Materials/M_Wood_Pine.uasset"
-[2018.05.22-09.47.36:882][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Walnut.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Materials/M_Wood_Walnut.uasset"
-[2018.05.22-09.47.36:909][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Ambient_Dust.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Particles/P_Ambient_Dust.uasset"
-[2018.05.22-09.47.36:933][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Explosion.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Particles/P_Explosion.uasset"
-[2018.05.22-09.47.36:949][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Fire.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Particles/P_Fire.uasset"
-[2018.05.22-09.47.36:966][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Smoke.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Particles/P_Smoke.uasset"
-[2018.05.22-09.47.36:995][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Sparks.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Particles/P_Sparks.uasset"
-[2018.05.22-09.47.37:054][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Steam_Lit.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Particles/P_Steam_Lit.uasset"
-[2018.05.22-09.47.37:100][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Burst.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Particles/Materials/M_Burst.uasset"
-[2018.05.22-09.47.37:132][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset"
-[2018.05.22-09.47.37:147][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset"
-[2018.05.22-09.47.37:273][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset"
-[2018.05.22-09.47.37:294][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/m_flare_01.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Particles/Materials/m_flare_01.uasset"
-[2018.05.22-09.47.37:318][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset"
-[2018.05.22-09.47.37:332][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset"
-[2018.05.22-09.47.37:356][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset"
-[2018.05.22-09.47.37:385][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset"
-[2018.05.22-09.47.37:406][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Spark.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Particles/Materials/M_Spark.uasset"
-[2018.05.22-09.47.37:420][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/MaterialSphere.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Props/MaterialSphere.uasset"
-[2018.05.22-09.47.37:453][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Bush.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Props/SM_Bush.uasset"
-[2018.05.22-09.47.37:499][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Chair.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Props/SM_Chair.uasset"
-[2018.05.22-09.47.37:524][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_CornerFrame.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Props/SM_CornerFrame.uasset"
-[2018.05.22-09.47.37:542][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Couch.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Props/SM_Couch.uasset"
-[2018.05.22-09.47.37:559][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Door.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Props/SM_Door.uasset"
-[2018.05.22-09.47.37:582][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_DoorFrame.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Props/SM_DoorFrame.uasset"
-[2018.05.22-09.47.37:602][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_GlassWindow.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Props/SM_GlassWindow.uasset"
-[2018.05.22-09.47.37:628][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset"
-[2018.05.22-09.47.37:642][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Wall.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Props/SM_Lamp_Wall.uasset"
-[2018.05.22-09.47.37:692][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset"
-[2018.05.22-09.47.37:706][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Props/SM_PillarFrame.uasset"
-[2018.05.22-09.47.37:729][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame300.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Props/SM_PillarFrame300.uasset"
-[2018.05.22-09.47.37:753][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Rock.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Props/SM_Rock.uasset"
-[2018.05.22-09.47.37:796][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Shelf.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Props/SM_Shelf.uasset"
-[2018.05.22-09.47.37:815][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Stairs.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Props/SM_Stairs.uasset"
-[2018.05.22-09.47.37:860][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Statue.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Props/SM_Statue.uasset"
-[2018.05.22-09.47.37:886][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_TableRound.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Props/SM_TableRound.uasset"
-[2018.05.22-09.47.37:909][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_WindowFrame.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Props/SM_WindowFrame.uasset"
-[2018.05.22-09.47.37:955][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Bush.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Props/Materials/M_Bush.uasset"
-[2018.05.22-09.47.37:966][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Chair.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Props/Materials/M_Chair.uasset"
-[2018.05.22-09.47.37:985][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Door.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Props/Materials/M_Door.uasset"
-[2018.05.22-09.47.38:006][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Frame.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Props/Materials/M_Frame.uasset"
-[2018.05.22-09.47.38:026][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Lamp.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Props/Materials/M_Lamp.uasset"
-[2018.05.22-09.47.38:052][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset"
-[2018.05.22-09.47.38:073][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset"
-[2018.05.22-09.47.38:097][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Rock.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Props/Materials/M_Rock.uasset"
-[2018.05.22-09.47.38:115][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Shelf.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Props/Materials/M_Shelf.uasset"
-[2018.05.22-09.47.38:142][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Statue.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Props/Materials/M_Statue.uasset"
-[2018.05.22-09.47.38:153][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_StatueGlass.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Props/Materials/M_StatueGlass.uasset"
-[2018.05.22-09.47.38:164][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_TableRound.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Props/Materials/M_TableRound.uasset"
-[2018.05.22-09.47.38:169][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cone.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Shapes/Shape_Cone.uasset"
-[2018.05.22-09.47.38:184][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cube.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Shapes/Shape_Cube.uasset"
-[2018.05.22-09.47.38:228][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cylinder.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Shapes/Shape_Cylinder.uasset"
-[2018.05.22-09.47.38:266][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset"
-[2018.05.22-09.47.38:393][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Shapes/Shape_Pipe.uasset"
-[2018.05.22-09.47.38:779][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_180.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Shapes/Shape_Pipe_180.uasset"
-[2018.05.22-09.47.38:833][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_90.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Shapes/Shape_Pipe_90.uasset"
-[2018.05.22-09.47.38:849][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Plane.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Shapes/Shape_Plane.uasset"
-[2018.05.22-09.47.38:869][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset"
-[2018.05.22-09.47.38:886][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Sphere.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Shapes/Shape_Sphere.uasset"
-[2018.05.22-09.47.38:951][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Torus.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Shapes/Shape_Torus.uasset"
-[2018.05.22-09.47.38:975][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Shapes/Shape_Trim.uasset"
-[2018.05.22-09.47.39:003][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset"
-[2018.05.22-09.47.39:024][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset"
-[2018.05.22-09.47.39:074][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_TriPyramid.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Shapes/Shape_TriPyramid.uasset"
-[2018.05.22-09.47.39:105][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Tube.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Shapes/Shape_Tube.uasset"
-[2018.05.22-09.47.39:128][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_A.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Shapes/Shape_Wedge_A.uasset"
-[2018.05.22-09.47.39:155][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_B.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Shapes/Shape_Wedge_B.uasset"
-[2018.05.22-09.47.39:174][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_WideCapsule.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Shapes/Shape_WideCapsule.uasset"
-[2018.05.22-09.47.39:356][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset"
-[2018.05.22-09.47.39:556][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset"
-[2018.05.22-09.47.40:151][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset"
-[2018.05.22-09.47.40:215][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset"
-[2018.05.22-09.47.40:314][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset"
-[2018.05.22-09.47.40:393][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset"
-[2018.05.22-09.47.40:546][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset"
-[2018.05.22-09.47.40:622][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset"
-[2018.05.22-09.47.40:779][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset"
-[2018.05.22-09.47.40:849][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset"
-[2018.05.22-09.47.41:636][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset"
-[2018.05.22-09.47.43:429][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset"
-[2018.05.22-09.47.43:539][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset"
-[2018.05.22-09.47.43:547][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Burst_M.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Textures/T_Burst_M.uasset"
-[2018.05.22-09.47.43:582][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_D.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Textures/T_Bush_D.uasset"
-[2018.05.22-09.47.43:601][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_N.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Textures/T_Bush_N.uasset"
-[2018.05.22-09.47.43:620][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset"
-[2018.05.22-09.47.43:632][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset"
-[2018.05.22-09.47.43:650][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_M.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Textures/T_Chair_M.uasset"
-[2018.05.22-09.47.43:677][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_N.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Textures/T_Chair_N.uasset"
-[2018.05.22-09.47.43:689][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Checker_Noise_M.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Textures/T_Checker_Noise_M.uasset"
-[2018.05.22-09.47.44:178][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset"
-[2018.05.22-09.47.44:261][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset"
-[2018.05.22-09.47.44:394][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset"
-[2018.05.22-09.47.44:433][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset"
-[2018.05.22-09.47.44:471][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset"
-[2018.05.22-09.47.44:549][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset"
-[2018.05.22-09.47.44:636][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset"
-[2018.05.22-09.47.44:727][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset"
-[2018.05.22-09.47.44:824][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset"
-[2018.05.22-09.47.44:952][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset"
-[2018.05.22-09.47.45:033][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset"
-[2018.05.22-09.47.49:730][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset"
-[2018.05.22-09.47.49:814][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset"
-[2018.05.22-09.47.49:887][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset"
-[2018.05.22-09.47.49:950][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset"
-[2018.05.22-09.47.50:045][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset"
-[2018.05.22-09.47.50:056][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset"
-[2018.05.22-09.47.50:092][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset"
-[2018.05.22-09.47.50:106][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_M.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Textures/T_Door_M.uasset"
-[2018.05.22-09.47.50:128][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_N.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Textures/T_Door_N.uasset"
-[2018.05.22-09.47.50:146][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Dust_Particle_D.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Textures/T_Dust_Particle_D.uasset"
-[2018.05.22-09.47.50:187][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Explosion_SubUV.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Textures/T_Explosion_SubUV.uasset"
-[2018.05.22-09.47.50:209][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_SubUV.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Textures/T_Fire_SubUV.uasset"
-[2018.05.22-09.47.50:227][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset"
-[2018.05.22-09.47.50:236][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_M.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Textures/T_Frame_M.uasset"
-[2018.05.22-09.47.50:263][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_N.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Textures/T_Frame_N.uasset"
-[2018.05.22-09.47.50:279][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Gradinet_01.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Textures/T_Gradinet_01.uasset"
-[2018.05.22-09.47.50:396][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_D.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Textures/T_Ground_Grass_D.uasset"
-[2018.05.22-09.47.50:512][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_N.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Textures/T_Ground_Grass_N.uasset"
-[2018.05.22-09.47.50:614][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset"
-[2018.05.22-09.47.50:990][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset"
-[2018.05.22-09.47.51:120][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_ground_Moss_D.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Textures/T_ground_Moss_D.uasset"
-[2018.05.22-09.47.51:204][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Moss_N.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Textures/T_Ground_Moss_N.uasset"
-[2018.05.22-09.47.51:263][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_M.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Textures/T_Lamp_M.uasset"
-[2018.05.22-09.47.51:292][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_N.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Textures/T_Lamp_N.uasset"
-[2018.05.22-09.47.51:409][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_MacroVariation.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Textures/T_MacroVariation.uasset"
-[2018.05.22-09.47.51:503][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset"
-[2018.05.22-09.47.51:644][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Copper_D.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Textures/T_Metal_Copper_D.uasset"
-[2018.05.22-09.47.51:745][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_D.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Textures/T_Metal_Gold_D.uasset"
-[2018.05.22-09.47.51:785][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_N.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Textures/T_Metal_Gold_N.uasset"
-[2018.05.22-09.47.51:874][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_D.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Textures/T_Metal_Rust_D.uasset"
-[2018.05.22-09.47.52:006][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_N.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Textures/T_Metal_Rust_N.uasset"
-[2018.05.22-09.47.55:145][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_D.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Textures/T_Metal_Steel_D.uasset"
-[2018.05.22-09.47.55:203][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_N.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Textures/T_Metal_Steel_N.uasset"
-[2018.05.22-09.47.55:285][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset"
-[2018.05.22-09.47.55:353][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_M.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Textures/T_RockMesh_M.uasset"
-[2018.05.22-09.47.55:412][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_N.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Textures/T_RockMesh_N.uasset"
-[2018.05.22-09.47.55:536][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset"
-[2018.05.22-09.47.55:620][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset"
-[2018.05.22-09.47.55:718][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset"
-[2018.05.22-09.47.55:832][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset"
-[2018.05.22-09.47.55:914][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset"
-[2018.05.22-09.47.56:050][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_D.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Textures/T_Rock_Slate_D.uasset"
-[2018.05.22-09.47.56:153][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_N.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Textures/T_Rock_Slate_N.uasset"
-[2018.05.22-09.47.56:242][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset"
-[2018.05.22-09.47.56:588][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_M.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Textures/T_Shelf_M.uasset"
-[2018.05.22-09.47.56:634][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_N.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Textures/T_Shelf_N.uasset"
-[2018.05.22-09.47.56:650][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Single_Tile_N.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Textures/T_Single_Tile_N.uasset"
-[2018.05.22-09.47.56:715][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_SubUV.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Textures/T_Smoke_SubUV.uasset"
-[2018.05.22-09.47.56:730][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset"
-[2018.05.22-09.47.56:747][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Spark_Core.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Textures/T_Spark_Core.uasset"
-[2018.05.22-09.47.56:771][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_M.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Textures/T_Statue_M.uasset"
-[2018.05.22-09.47.56:810][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_N.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Textures/T_Statue_N.uasset"
-[2018.05.22-09.47.56:830][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_M.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Textures/T_TableRound_M.uasset"
-[2018.05.22-09.47.56:850][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_N.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Textures/T_TableRound_N.uasset"
-[2018.05.22-09.47.56:873][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_M.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Textures/T_Tech_Dot_M.uasset"
-[2018.05.22-09.47.56:907][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_N.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Textures/T_Tech_Dot_N.uasset"
-[2018.05.22-09.47.56:922][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset"
-[2018.05.22-09.47.56:936][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset"
-[2018.05.22-09.47.56:984][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_M.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Textures/T_Tech_Panel_M.uasset"
-[2018.05.22-09.47.57:035][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_N.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Textures/T_Tech_Panel_N.uasset"
-[2018.05.22-09.47.57:057][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_M.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Textures/T_Water_M.uasset"
-[2018.05.22-09.47.57:106][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_N.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Textures/T_Water_N.uasset"
-[2018.05.22-09.47.57:159][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset"
-[2018.05.22-09.47.57:251][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset"
-[2018.05.22-09.47.57:282][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset"
-[2018.05.22-09.47.57:367][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_D.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Textures/T_Wood_Oak_D.uasset"
-[2018.05.22-09.47.57:430][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_N.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Textures/T_Wood_Oak_N.uasset"
-[2018.05.22-09.47.57:571][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_D.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Textures/T_Wood_Pine_D.uasset"
-[2018.05.22-09.47.58:266][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_N.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Textures/T_Wood_Pine_N.uasset"
-[2018.05.22-09.47.58:350][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset"
-[2018.05.22-09.47.58:391][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset" to "../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset"
-[2018.05.22-09.47.59:474][  0]LogRenderer: Reallocating scene render targets to support 256x256 Format 26 NumSamples 1 (Frame:1).
-[2018.05.22-09.47.59:790][  0]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Architecture/Floor_400x400" FILE="../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Architecture/Floor_400x400.uasset" SILENT=true
-[2018.05.22-09.47.59:961][  0]LogSavePackage: Save=100.94ms
-[2018.05.22-09.47.59:962][  0]LogSavePackage: Moving '../../../../../../Repositories/MadTrain/MadTrain/Saved/Floor_400x4003038D23C460495C867631F834F0D7F81.tmp' to '../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Architecture/Floor_400x400.uasset'
-[2018.05.22-09.47.59:979][  0]LogSavePackage: Display: Finished SavePackage ../../../../../../Repositories/MadTrain/MadTrain/Content/StarterContent/Architecture/Floor_400x400.uasset
-[2018.05.22-09.47.59:979][  0]LogFeaturePack: Warning: Inserted 1 feature packs
-[2018.05.22-09.47.59:980][  0]Cmd: MAP LOAD FILE="../../../../../../Repositories/MadTrain/MadTrain/Content/VirtualRealityBP/Maps/StartupMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.05.22-09.47.59:981][  0]LightingResults: New page: Lighting Build
-[2018.05.22-09.47.59:983][  0]MapCheck: New page: Map Check
-[2018.05.22-09.47.59:983][  0]LightingResults: New page: Lighting Build
-[2018.05.22-09.48.00:728][  0]LogSkeletalMesh: Skeletal Mesh found in DDC [38.912361ms] /Game/VirtualReality/Mannequin/Character/Mesh/MannequinHand_Right.MannequinHand_Right
-[2018.05.22-09.48.00:957][  0]LogAIModule: Creating AISystem for world StartupMap
-[2018.05.22-09.48.01:236][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.05.22-09.48.01:248][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.05.22-09.48.01:299][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 49,985ms to complete.
-[2018.05.22-09.48.01:299][  0]LogFileHelpers: Loading map 'StartupMap' took 1.318
-[2018.05.22-09.48.02:931][  0]LogCollectionManager: Loaded 0 collections in 0.001238 seconds
-[2018.05.22-09.48.03:459][  0]LogFileCache: Scanning file cache for directory 'D:/Repositories/MadTrain/MadTrain/Saved/Collections/' took 0.01s
-[2018.05.22-09.48.03:459][  0]LogFileCache: Scanning file cache for directory 'D:/Repositories/MadTrain/MadTrain/Content/Developers/BelabedIlias/Collections/' took 0.01s
-[2018.05.22-09.48.03:459][  0]LogFileCache: Scanning file cache for directory 'D:/Repositories/MadTrain/MadTrain/Content/Collections/' took 0.01s
-[2018.05.22-09.48.03:459][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2018.05.22-09.48.03:498][  0]LogContentBrowser: Native class hierarchy populated in 0.0181 seconds. Added 2452 classes and 558 folders.
-[2018.05.22-09.48.03:643][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2018.05.22-09.48.03:688][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2018.05.22-09.48.03:781][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
-[2018.05.22-09.48.06:758][  0]LogSlate: Took 0.000242 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.05.22-09.48.07:947][  0]LogSlate: Took 0.000264 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2018.05.22-09.48.08:078][  0]LogSlate: Took 0.018091 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2018.05.22-09.48.08:675][  0]LogRenderer: Reallocating scene render targets to support 1208x600 Format 26 NumSamples 1 (Frame:1).
-[2018.05.22-09.48.09:505][  0]LogSlate: Took 0.000190 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2018.05.22-09.48.09:885][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2018.05.22-09.48.09:885][  0]LogLoad: (Engine Initialization) Total time: 49.85 seconds
-[2018.05.22-09.48.09:885][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2018.05.22-09.48.10:419][  0]LogContentStreaming: Texture pool size now 800 MB
-[2018.05.22-09.48.10:897][  2]LogAssetRegistry: Asset discovery search completed in 46.1930 seconds
-[2018.05.22-09.48.10:899][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2018.05.22-09.48.10:899][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000053 seconds (updated 0 objects)
+[2018.05.22-10.25.30:863][  0]LogInit: Selected Device Profile: [Windows]
+[2018.05.22-10.25.30:863][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.05.22-10.25.30:905][  0]LogInit: Computer: DESKTOP-89D3LC2
+[2018.05.22-10.25.30:905][  0]LogInit: User: BelabedIlias
+[2018.05.22-10.25.30:905][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.05.22-10.25.30:905][  0]LogInit: High frequency timer resolution =2.437503 MHz
+[2018.05.22-10.25.30:905][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2018.05.22-10.25.30:905][  0]LogMemory: Platform Memory Stats for Windows
+[2018.05.22-10.25.30:905][  0]LogMemory: Process Physical Memory: 273.00 MB used, 273.00 MB peak
+[2018.05.22-10.25.30:905][  0]LogMemory: Process Virtual Memory: 261.90 MB used, 261.90 MB peak
+[2018.05.22-10.25.30:905][  0]LogMemory: Physical Memory: 4766.64 MB used,  3343.25 MB free, 8109.90 MB total
+[2018.05.22-10.25.30:905][  0]LogMemory: Virtual Memory: 631.96 MB used,  3343.25 MB free, 134217728.00 MB total
+[2018.05.22-10.25.31:196][  0]LogInit: Using OS detected language (fr-FR).
+[2018.05.22-10.25.31:196][  0]LogInit: Using OS detected locale (fr-FR).
+[2018.05.22-10.25.31:261][  0]LogTextLocalizationManager: No localization for 'fr-FR' exists, so 'en' will be used for the language.
+[2018.05.22-10.25.31:929][  0]LogStreaming: Display: Took  0.733s to EndInitTextLocalization.
+[2018.05.22-10.25.32:096][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.05.22-10.25.32:096][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.05.22-10.25.33:576][  0]LogD3D11RHI: D3D11 adapters:
+[2018.05.22-10.25.33:629][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050' (Feature Level 11_0)
+[2018.05.22-10.25.33:629][  0]LogD3D11RHI:       1979/0/4054 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.05.22-10.25.33:639][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2018.05.22-10.25.33:639][  0]LogD3D11RHI:       128/0/4054 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2018.05.22-10.25.33:641][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.05.22-10.25.33:641][  0]LogD3D11RHI:       0/0/4054 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.05.22-10.25.33:641][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.05.22-10.25.33:648][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.05.22-10.25.33:648][  0]LogD3D11RHI:     GPU DeviceId: 0x1c8d (for the marketing name, search the web for "GPU Device Id")
+[2018.05.22-10.25.33:648][  0]LogWindows: EnumDisplayDevices:
+[2018.05.22-10.25.33:648][  0]LogWindows:    0. 'Intel(R) HD Graphics 630' (P:1 D:1)
+[2018.05.22-10.25.33:648][  0]LogWindows:    1. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2018.05.22-10.25.33:648][  0]LogWindows:    2. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2018.05.22-10.25.33:648][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.05.22-10.25.33:648][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050
+[2018.05.22-10.25.33:648][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.05.22-10.25.33:648][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.05.22-10.25.33:648][  0]LogRHI: Texture pool is 1385 MB (70% of 1979 MB)
+[2018.05.22-10.25.33:708][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2018.05.22-10.25.33:708][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2018.05.22-10.25.33:708][  0]LogD3D11RHI: Async texture creation enabled
+[2018.05.22-10.25.33:724][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.05.22-10.25.33:725][  0]LogShaderCompilers: Guid format shader working directory is 5 characters bigger than the processId version (../../../../../../Repositories/MadTrain/MadTrain/Intermediate/Shaders/WorkingDirectory/12920/).
+[2018.05.22-10.25.33:725][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Belabed Ilias/AppData/Local/Temp/UnrealShaderWorkingDir/EF78FED8476D4A4B612421A8D5107C83/'.
+[2018.05.22-10.25.34:577][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.05.22-10.25.34:604][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.05.22-10.25.34:631][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.05.22-10.25.34:655][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.05.22-10.25.34:695][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.05.22-10.25.34:746][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.05.22-10.25.34:767][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.05.22-10.25.34:792][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.05.22-10.25.34:807][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.05.22-10.25.34:844][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.05.22-10.25.34:877][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.05.22-10.25.34:909][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.05.22-10.25.34:935][  0]LogTemp: Display: Loaded TP Android_ETC1aTargetPlatform
+[2018.05.22-10.25.34:969][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.05.22-10.25.34:997][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.05.22-10.25.35:070][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.05.22-10.25.35:070][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.05.22-10.25.35:108][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.05.22-10.25.35:119][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.05.22-10.25.35:232][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.05.22-10.25.35:243][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.05.22-10.25.35:260][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.05.22-10.25.35:282][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.05.22-10.25.35:317][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.05.22-10.25.35:375][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.05.22-10.25.35:375][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.05.22-10.25.35:855][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.05.22-10.25.35:855][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.05.22-10.25.35:855][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.05.22-10.25.38:125][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.05.22-10.25.38:460][  0]LogDerivedDataCache: Loaded boot cache 0.33s 88MB C:/Users/Belabed Ilias/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2018.05.22-10.25.38:460][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Belabed Ilias/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc
+[2018.05.22-10.25.38:460][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Repositories/MadTrain/MadTrain/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.05.22-10.25.38:460][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.05.22-10.25.38:460][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Repositories/MadTrain/MadTrain/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.05.22-10.25.38:460][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.05.22-10.25.38:547][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.05.22-10.25.38:560][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Belabed Ilias/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.05.22-10.25.38:560][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.05.22-10.25.38:560][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.05.22-10.25.38:572][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.05.22-10.25.38:572][  0]LogSlate: Using Freetype 2.6.0
+[2018.05.22-10.25.38:594][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.05.22-10.25.38:594][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.05.22-10.25.41:958][  0]LogAssetRegistry: FAssetRegistry took 0.0266 seconds to start up
+[2018.05.22-10.25.43:811][  0]LogInit: Selected Device Profile: [Windows]
+[2018.05.22-10.25.44:236][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.05.22-10.25.44:250][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.05.22-10.25.44:250][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.05.22-10.25.44:250][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.05.22-10.25.44:250][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.05.22-10.25.44:251][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.05.22-10.25.44:283][  0]LogNetVersion: MadTrain , NetCL: 3944462, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1735386904)
+[2018.05.22-10.25.44:963][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.037221 seconds
+[2018.05.22-10.25.44:968][  0]LogUObjectArray: 36728 objects as part of root set at end of initial load.
+[2018.05.22-10.25.44:968][  0]LogUObjectAllocator: 7314304 out of 0 bytes used by permanent object pool.
+[2018.05.22-10.25.44:968][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.05.22-10.26.05:060][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.05.22-10.26.05:100][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.05.22-10.26.06:126][  0]SourceControl: Source control is disabled
+[2018.05.22-10.26.06:126][  0]SourceControl: Source control is disabled
+[2018.05.22-10.26.06:171][  0]SourceControl: Source control is disabled
+[2018.05.22-10.26.06:208][  0]SourceControl: Source control is disabled
+[2018.05.22-10.26.07:266][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.05.22-10.26.07:505][  0]LogOcInput: OculusInput pre-init called
+[2018.05.22-10.26.07:791][  0]LogEngine: Initializing Engine...
+[2018.05.22-10.26.07:799][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.05.22-10.26.07:800][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.05.22-10.26.07:800][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.05.22-10.26.08:110][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.05.22-10.26.08:118][  0]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.05.22-10.26.08:202][  0]LogInit: FAudioDevice initialized.
+[2018.05.22-10.26.08:285][  0]LogDerivedDataCache: Saved boot cache 0.08s 88MB C:/Users/Belabed Ilias/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2018.05.22-10.26.08:298][  0]LogInit: Texture streaming: Enabled
+[2018.05.22-10.26.08:349][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.05.22-10.26.08:420][  0]LogInit: Transaction tracking system initialized
+[2018.05.22-10.26.08:599][  0]BlueprintLog: New page: Editor Load
+[2018.05.22-10.26.09:125][  0]LocalizationService: Localization service is disabled
+[2018.05.22-10.26.09:616][  0]LogConsoleResponse: Display: 
+[2018.05.22-10.26.10:282][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.05.22-10.26.10:282][  0]LogCook: Display: Mobile HDR setting 1
+[2018.05.22-10.26.10:283][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.05.22-10.26.10:283][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.05.22-10.26.10:283][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.05.22-10.26.10:879][  0]LogFileCache: Scanning file cache for directory 'D:/Repositories/MadTrain/MadTrain/Content/' took 0.01s
+[2018.05.22-10.26.12:603][  0]SourceControl: Source control is disabled
+[2018.05.22-10.26.12:603][  0]Cmd: MAP LOAD FILE="../../../../../../Repositories/MadTrain/MadTrain/Content/VirtualRealityBP/Maps/StartupMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.05.22-10.26.12:603][  0]LightingResults: New page: Lighting Build
+[2018.05.22-10.26.12:621][  0]MapCheck: New page: Map Check
+[2018.05.22-10.26.12:621][  0]LightingResults: New page: Lighting Build
+[2018.05.22-10.26.12:769][  0]LogSkeletalMesh: Skeletal Mesh found in DDC [7.737016ms] /Game/VirtualReality/Mannequin/Character/Mesh/MannequinHand_Right.MannequinHand_Right
+[2018.05.22-10.26.12:791][  0]LogAIModule: Creating AISystem for world StartupMap
+[2018.05.22-10.26.12:798][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.05.22-10.26.12:811][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.05.22-10.26.12:863][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 51,73ms to complete.
+[2018.05.22-10.26.12:863][  0]LogFileHelpers: Loading map 'StartupMap' took 0.261
+[2018.05.22-10.26.13:153][  0]LogCollectionManager: Loaded 0 collections in 0.001517 seconds
+[2018.05.22-10.26.13:215][  0]LogFileCache: Scanning file cache for directory 'D:/Repositories/MadTrain/MadTrain/Saved/Collections/' took 0.01s
+[2018.05.22-10.26.13:215][  0]LogFileCache: Scanning file cache for directory 'D:/Repositories/MadTrain/MadTrain/Content/Developers/BelabedIlias/Collections/' took 0.01s
+[2018.05.22-10.26.13:215][  0]LogFileCache: Scanning file cache for directory 'D:/Repositories/MadTrain/MadTrain/Content/Collections/' took 0.02s
+[2018.05.22-10.26.13:215][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.05.22-10.26.13:238][  0]LogContentBrowser: Native class hierarchy populated in 0.0227 seconds. Added 2453 classes and 561 folders.
+[2018.05.22-10.26.13:272][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.05.22-10.26.14:184][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.05.22-10.26.14:207][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2018.05.22-10.26.14:316][  0]LogSlate: Took 0.012895 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.05.22-10.26.14:919][  0]LogDirectoryWatcher: Warning: Failed to begin reading directory changes for ../../../../../../Repositories/MadTrain/MadTrain/Plugins/. Error: Le fichier spécifié est introuvable. (0x00000002)
+[2018.05.22-10.26.14:964][  0]LogSlate: Took 0.011992 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.05.22-10.26.14:982][  0]LogSlate: Took 0.012509 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.05.22-10.26.15:089][  0]LogRenderer: Reallocating scene render targets to support 1208x600 Format 26 NumSamples 1 (Frame:1).
+[2018.05.22-10.26.15:317][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.05.22-10.26.15:317][  0]LogLoad: (Engine Initialization) Total time: 66.90 seconds
+[2018.05.22-10.26.15:317][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.05.22-10.26.15:677][  0]LogContentStreaming: Texture pool size now 800 MB
+[2018.05.22-10.26.15:765][  0]LogSlate: Took 0.000208 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.05.22-10.26.15:999][  1]LogAssetRegistry: Asset discovery search completed in 34.0630 seconds
+[2018.05.22-10.26.16:001][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.05.22-10.26.16:001][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000050 seconds (updated 0 objects)
+[2018.05.22-10.26.18:660][  9]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.22-10.26.18:660][  9]LogSlate: Window 'Plugins' being destroyed
+[2018.05.22-10.26.18:670][  9]LogSlate: Window 'Plugins' being destroyed
+[2018.05.22-10.26.18:671][  9]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/' was aborted.
+[2018.05.22-10.26.19:500][ 55]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.22-10.26.19:690][ 66]LogSlate: Took 0.000229 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.05.22-10.26.19:787][ 66]LogLinker: Warning: Can't find file '/Game/1st_BuiltData'
+[2018.05.22-10.26.19:787][ 66]LogLinker: Warning: Can't find file for asset '/Game/1st_BuiltData' while loading ../../../../../../Repositories/MadTrain/MadTrain/Content/1st.umap.
+[2018.05.22-10.26.19:800][ 66]LoadErrors: Error: /Game/1st : Can't find file for asset. /Game/1st_BuiltData
+[2018.05.22-10.26.19:802][ 66]LogLinker: Warning: Can't find file '/Game/1st_BuiltData'
+[2018.05.22-10.26.19:803][ 66]LogLinker: Warning: Can't find file for asset '/Game/1st_BuiltData' while loading ../../../../../../Repositories/MadTrain/MadTrain/Content/1st.umap.
+[2018.05.22-10.26.19:808][ 66]LogLinker: Warning: Can't find file '/Game/1st_BuiltData'
+[2018.05.22-10.26.19:808][ 66]LoadErrors: Failed to load /Game/1st_BuiltData.1st_BuiltData Referenced by PersistentLevel
+[2018.05.22-10.26.19:808][ 66]LogLinker: Warning: Can't find file for asset '/Game/1st_BuiltData' while loading NULL.
+[2018.05.22-10.26.19:878][ 66]LogAIModule: Creating AISystem for world 1st
+[2018.05.22-10.26.19:922][ 66]Cmd: MAP LOAD FILE="../../../../../../Repositories/MadTrain/MadTrain/Content/1st.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.05.22-10.26.19:922][ 66]LightingResults: New page: Lighting Build
+[2018.05.22-10.26.19:923][ 66]LoadErrors: New page: Loading map: 1st.umap
+[2018.05.22-10.26.19:934][ 66]MapCheck: New page: Map Check
+[2018.05.22-10.26.19:934][ 66]LightingResults: New page: Lighting Build
+[2018.05.22-10.26.19:993][ 66]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.05.22-10.26.20:018][ 66]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.05.22-10.26.20:069][ 66]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 51,22ms to complete.
+[2018.05.22-10.26.20:069][ 66]LogFileHelpers: Loading map '1st' took 0.148
+[2018.05.22-10.26.56:891][266]MapCheck: New page: Map Check
+[2018.05.22-10.26.56:962][266]Cmd: MAP REBUILD ALLVISIBLE
+[2018.05.22-10.26.56:962][266]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2018.05.22-10.26.57:187][266]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2018.05.22-10.26.57:373][266]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.05.22-10.26.57:373][266]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy DefaultMaterial, compiling. 
+[2018.05.22-10.26.57:378][266]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_2, compiling. 
+[2018.05.22-10.26.59:229][266]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.05.22-10.26.59:229][266]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.05.22-10.26.59:229][266]TextureStreamingBuild: Display: Compiling optional shaders took 2.056 seconds.
+[2018.05.22-10.26.59:279][266]LogLevel: Display: Export Material TexCoord Scales took 0.050 seconds.
+[2018.05.22-10.26.59:299][266]TextureStreamingBuild: Display: Build Texture Streaming took 0.020 seconds.
+[2018.05.22-10.26.59:352][266]LightingResults: New page: Lighting Build - 22 mai 2018 14:26:59
+[2018.05.22-10.26.59:548][266]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2018.05.22-10.26.59:679][266]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2018.05.22-10.26.59:693][266]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2018.05.22-10.27.00:745][266]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2018.05.22-10.27.00:745][266]LogSwarmInterface: [TryOpenConnection] Local Process ID is 12920
+[2018.05.22-10.27.03:198][266]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2018.05.22-10.27.03:224][266]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2018.05.22-10.27.03:224][266]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2018.05.22-10.27.03:224][266]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2018.05.22-10.27.03:224][266]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2018.05.22-10.27.03:224][266]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2018.05.22-10.27.03:609][266]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2018.05.22-10.27.03:609][266]MapCheck: New page: 1st - 22 mai 2018 14:27:03
+[2018.05.22-10.27.03:609][266]MapCheck: Error: WorldSettings_1 Maps need lighting rebuilt 
+[2018.05.22-10.27.03:730][266]MapCheck: Map check complete: 1 Error(s), 0 Warning(s), took 121,109ms to complete.
+[2018.05.22-10.27.03:752][266]LogEditorBuildUtils: Build time 0:06
+[2018.05.22-10.27.04:062][267]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer MaterialInstanceDynamic_2, compiling. 
+[2018.05.22-10.27.04:091][267]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer MaterialInstanceDynamic_2, compiling. 
+[2018.05.22-10.27.04:111][267]LogShaderCompilers: Display: Shaders left to compile 4
+[2018.05.22-10.27.07:164][341]LogSlate: Window 'Message Log' being destroyed
+[2018.05.22-10.27.07:180][341]LogSlate: Window 'Message Log' being destroyed
+[2018.05.22-10.27.07:692][361]Job is a success!
+[2018.05.22-10.27.07:866][362]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.046s
+[2018.05.22-10.27.07:866][362]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2018.05.22-10.27.07:866][362]LogVolumetricLightmapImport:      BrickData 370x5x5 = 0.3Mb
+[2018.05.22-10.27.07:866][362]LogVolumetricLightmapImport:      Bricks at Level
+[2018.05.22-10.27.07:866][362]LogVolumetricLightmapImport:          0: 1.4% covering 100.0% of volume
+[2018.05.22-10.27.07:866][362]LogVolumetricLightmapImport:          1: 12.2% covering 14.1% of volume
+[2018.05.22-10.27.07:866][362]LogVolumetricLightmapImport:          2: 86.5% covering 1.6% of volume
+[2018.05.22-10.27.08:091][362]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 256X256)
+[2018.05.22-10.27.08:091][362]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 256X256)
+[2018.05.22-10.27.08:091][362]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 64X64)
+[2018.05.22-10.27.08:091][362]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 64X64)
+[2018.05.22-10.27.08:091][362]LogTexture: Display: Building textures: ShadowMapTexture2D_1 (G8, 32X32)
+[2018.05.22-10.27.08:091][362]LogTexture: Display: Building textures: ShadowMapTexture2D_0 (G8, 128X128)
+[2018.05.22-10.27.08:164][362]Lightmass on DESKTOP-89D3LC2: 1.69 sec total, 178 ms importing, 132 ms setup, 229 ms photons, 1.02 sec processing, 0 ms extra exporting [2/2 mappings]. Threads: 4.07 sec total, 335 ms processing.
+[2018.05.22-10.27.08:257][362]LogStaticLightingSystem: Illumination: 8.81 sec (109 ms encoding lightmaps, 40 ms encoding shadowmaps)
+[2018.05.22-10.27.08:257][362]LogStaticLightingSystem: Lightmap texture memory:  0.1 MB (0.1 MB streaming, 0.0 MB non-streaming), 4 textures
+[2018.05.22-10.27.08:258][362]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 2 textures
+[2018.05.22-10.27.09:184][362]DumpUnbuiltLightIteractions
+[2018.05.22-10.27.09:184][362]Lights with unbuilt interactions: 0
+[2018.05.22-10.27.09:184][362]
+[2018.05.22-10.27.09:184][362]Primitives with unbuilt interactions: 0
+[2018.05.22-10.27.09:274][363]Cmd: MAP CHECK NOTIFYRESULTS
+[2018.05.22-10.27.09:275][363]MapCheck: New page: 1st - 22 mai 2018 14:27:09
+[2018.05.22-10.27.09:330][363]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 55,049ms to complete.
+[2018.05.22-10.27.48:016][620]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.05.22-10.27.49:491][706]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.05.22-10.27.49:557][706]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/1st" FILE="../../../../../../Repositories/MadTrain/MadTrain/Content/1st.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.05.22-10.27.49:591][706]LogSavePackage: Save=18.79ms
+[2018.05.22-10.27.49:591][706]LogSavePackage: Moving '../../../../../../Repositories/MadTrain/MadTrain/Saved/1st5B6EBDF449D7F2B4033589A6DF17B917.tmp' to '../../../../../../Repositories/MadTrain/MadTrain/Content/1st.umap'
+[2018.05.22-10.27.49:593][706]LogSavePackage: Display: Finished SavePackage ../../../../../../Repositories/MadTrain/MadTrain/Content/1st.umap
+[2018.05.22-10.27.49:606][706]LogFileHelpers: Saving map '1st' took 0.103
+[2018.05.22-10.27.49:609][706]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/1st_BuiltData" FILE="../../../../../../Repositories/MadTrain/MadTrain/Content/1st_BuiltData.uasset" SILENT=true
+[2018.05.22-10.27.49:684][706]LogSavePackage: Save=73.33ms
+[2018.05.22-10.27.49:684][706]LogSavePackage: Moving '../../../../../../Repositories/MadTrain/MadTrain/Saved/1st_BuiltData4E8E5A1641B283134D9D688A1DACF84E.tmp' to '../../../../../../Repositories/MadTrain/MadTrain/Content/1st_BuiltData.uasset'
+[2018.05.22-10.27.49:687][706]LogSavePackage: Display: Finished SavePackage ../../../../../../Repositories/MadTrain/MadTrain/Content/1st_BuiltData.uasset
